@@ -58,7 +58,7 @@ $numrows=mysqli_num_rows($result);
 	$numrows=mysqli_num_rows($datame1);
 	if($numrows!=0)
 	{
-        /*
+        
 		while($row = mysqli_fetch_assoc($datame1))
 		{
             $myactivation = $row["onlineactivated"];
@@ -124,8 +124,8 @@ $numrows=mysqli_num_rows($result);
             echo 1;
         }
 
-		*/ 
-        echo '  <p class="text-danger"> Service Unavailable, Due to our system is only available on On-site visit only</p>';
+		 
+    //    echo '  <p class="text-danger"> Service Unavailable, Due to our system is only available on On-site visit only</p>';
 
 	}
 	

@@ -10,7 +10,7 @@ require 'dbconfig.php';
 
     $fetchqry  = "SELECT * FROM `examapproved` WHERE email LIKE '". $sname ."' AND password LIKE '". $pword ."' and onlineactivated Like 'yes'"; //SQL FORMAT FOR SEARCHING 
 
-    if($name!="")
+    if($sname!="")
     {
         $result=mysqli_query($con,$fetchqry);
         $num_row=mysqli_num_rows($result);
